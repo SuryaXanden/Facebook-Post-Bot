@@ -5,10 +5,8 @@ Python, Selenium and Flask are being used to make the magic happen.
 
 <strong>Setup</strong>
 <ol>
-    <li>git clone "https://github.com/SuryaXanden/
-"</li>
-    <li>cd 
-</li>
+    <li>git clone "https://github.com/SuryaXanden/FB-Post-Bot"</li>
+    <li>cd FB-Post-Bot</li>
     <li>pip install -r requirements.txt</li>
     <li>python app.py</li>
 </ol>
