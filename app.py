@@ -2,11 +2,17 @@ from selenium import webdriver
 from time import sleep
 from flask import Flask, render_template, request
 from werkzeug import secure_filename
+from selenium.webdriver.chrome.options import Options
 import os
 
 def Facebook(usr,pwd,path,desc,speed):
     if usr:
-        driver = webdriver.Chrome(executable_path='./chromedriver.exe')
+        chrome_options = Options()  
+        chrome_options.add_argument("--headless")
+
+        driver = webdriver.Chrome(executable_path = './chromedriver.exe', chrome_options = chrome_options)
+        
+
         #<--- code to login --->
         driver.get('https://en-gb.facebook.com/login')
         usr_box = driver.find_element_by_id('email')
