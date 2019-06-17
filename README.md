@@ -6,9 +6,10 @@ Python, Selenium and Flask are being used to make the magic happen.
 <strong>Setup</strong>
 <ol>
     <li>git clone "https://github.com/SuryaXanden/Facebook-Post-Bot"</li>
-    <li>cd FB-Post-Bot</li>
+    <li>cd Facebook-Post-Bot</li>
     <li>pip install -r requirements.txt</li>
     <li>python app.py</li>
+    <li>Download the latest version of chromerdriver from http://chromedriver.chromium.org/downloads and place it in this folder</li>
 </ol>
 <strong>Guidelines</strong>
 <ul>
